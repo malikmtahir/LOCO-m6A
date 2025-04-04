@@ -19,9 +19,8 @@ The benchmark dataset for m6A was **randomly split** into:
 - The model was trained on 22 chromosomes and evaluated on the corresponding test dataset.
 
 
-
 <p align="center">
-<img src="https://github.com/shahid3167/Ensemble_Learning_with_Semantic_Feature_Fusion/blob/ca8c6adafb0b3b6ca913754e6ebf90237e1122f1/Figures/SystemModel.jpg" width="700" height="500">
+<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/Figures/Frame_work.jpg" width="700" height="500">
 
 <p align="center">
 System model of the ensemble learning framework highlighting data, feature fusion, and model spaces
