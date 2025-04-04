@@ -1,4 +1,10 @@
-# Ensemble Learning with Semantic Feature Fusion
+# Predicting m6A sites with Chromosome-Generalizable Hybrid Deep Features
+This repository contains resources related to the research titled **Predicting Tissue-Conserved Human m6A with Chromosome-Generalizable Hybrid Deep Features** In this study, we propose a computational model based on random splitting and Leave-One-Chromosome-Out (LOCO) approaches to identify m6A sites. The proposed framework is built on a detailed architecture that includes core components such as the Data Space, splitting strategies, and Feature Fusion Space.
+
+
+
+
+
 This repository contains resources related to the research titled **Ensemble Learning Approach with Semantic Feature Fusion for Granular Nucleosome Position Mapping**.
 This work emphased the spatio-temporal dependencies inherent in the DNA sequence and proposed an ensemble learning model with semantic feature fusion. A detailed archtecture for the proposed framework which consists of core spaces including the Data Space, the Feature Fusion Space, and the Model Space.
 
