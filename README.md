@@ -1,22 +1,24 @@
 # Predicting m6A sites with Chromosome-Generalizable Hybrid Deep Features
 This repository contains resources related to the research titled **Predicting Tissue-Conserved Human m6A with Chromosome-Generalizable Hybrid Deep Features** In this study, we propose a computational model based on random splitting and Leave-One-Chromosome-Out (LOCO) approaches to identify m6A sites. The proposed framework is built on a detailed architecture that includes core components such as the Data Space, splitting strategies, and Feature Fusion Space.
 
-
-
-
-
-This repository contains resources related to the research titled **Ensemble Learning Approach with Semantic Feature Fusion for Granular Nucleosome Position Mapping**.
-This work emphased the spatio-temporal dependencies inherent in the DNA sequence and proposed an ensemble learning model with semantic feature fusion. A detailed archtecture for the proposed framework which consists of core spaces including the Data Space, the Feature Fusion Space, and the Model Space.
-
 ## Proposed Framework
-### Data Space
+### Benchmark Dataset
 The **Data Space** represents the continuous nature of DNA and RNA sequences and emphasizes the necessity of transforming these continuous chains into **semantic vector representations** through **tokenization and vectorization** processes. 
 
 ### Feature Fusion Space
-The **Feature Space** presents the cosine **semantic similarity mechanism** to characterize the semantic relationship among the vectorized tokens and subsequently **fuse the correlated features into a semantic vector** that is utilized in the developed framework. A section also provides a detailed mathematical framework for identifying the semantic relationships and fusion mechanisms.
+The m6A benchmark dataset was downloaded from m6A-TCPred, extracting 268,115 base-resolution m6A sites from the m6A-Atlas database. The sites were analyzed across 23 human tissue contexts. The positive dataset had 10,424 highly conserved methylation site sequences across human tissues, while the negative dataset had 54,949 tissue-specific site sequences.
 
-### Model Space
-The **Model Space** presents a **mathematical framework** for the individual models such as **Fully Connected Network and Convolutional Neural Network** to capture the **spatial dependencies**, while **Gated Recurrent Unit and Long Short-Term Memory Networks** address the **temporal dependencies**. Furthermore, a **hybrid function** leveraging the **uniform and weighted inference** mechanisms fuses these **spatio-temporal-based models** into the developed **ensemble learning framework**.
+### Splitting Approach
+The benchmark dataset for m6A was **randomly split** into:
+ - **80%** for the training dataset
+  - **20%** for the independent test dataset, ensuring m6A pairs from the same number of chromosomes.
+  
+  The **Leave-One-Chromosome-Out (LOCO)** approach split the benchmark dataset into 23 sub-datasets:
+  - Each chromosome served as the test dataset in one iteration.
+  - The remaining 22 chromosomes were used for training.  
+- The model was trained on 22 chromosomes and evaluated on the corresponding test dataset.
+
+
 
 <p align="center">
 <img src="https://github.com/shahid3167/Ensemble_Learning_with_Semantic_Feature_Fusion/blob/ca8c6adafb0b3b6ca913754e6ebf90237e1122f1/Figures/SystemModel.jpg" width="700" height="500">
