@@ -20,7 +20,7 @@ The benchmark dataset for m6A was **randomly split** into:
 
 
 <p align="center">
-<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/Figures/Frame_work.jpg" width="700" height="500">
+<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/Figures/Frame_work.jpg" width="700" height="800">
 
 <p align="center">
 System model of the ensemble learning framework highlighting data, feature fusion, and model spaces
