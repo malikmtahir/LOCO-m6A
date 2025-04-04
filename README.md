@@ -18,6 +18,14 @@ The benchmark dataset for m6A was **randomly split** into:
   - The remaining 22 chromosomes were used for training.  
 - The model was trained on 22 chromosomes and evaluated on the corresponding test dataset.
 
+### Feature Fusion Space
+Feature extraction is a crucial step in designing and extracting information patterns from biological sequences. In this work, we employed two feature encoding methods:
+-	**k-mer encoding**
+- **One-hot encoding with CNN**
+The k-mer features were first passed through a dense layer, and then the resulting feature maps were concatenated with the CNN feature maps before further processing
+
+### CNN Model
+The **Convolutional Neural Network (CNN)** is specifically designed to capture spatial dependencies in the input data.
 
 <p align="center">
 <img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/Figures/Frame_work.jpg" width="500" height="800">
@@ -25,8 +33,8 @@ The benchmark dataset for m6A was **randomly split** into:
 <p align="center">
 System model of the ensemble learning framework highlighting data, feature fusion, and model spaces
 
-## Results
-The developed framework is applied to three (**C. elegans, D. melanogaster, and H. sapiens**) datasets (available in the dataset folder) and the tendency of the **correlated features** and **non-related features** is presented through a **Bland-Altman plot**, followed by the overall feature representations, which are categorized into correlated and non-related features, for the three datasets. Subsequently, the results are evaluated under several different scenarios against the individual models (FCN, CCN, GRU, and LSTM) and state-of-the-art DNA identification models, followed by statistical evaluation using mean, standard deviation, and 95% confidence interval.
+## Feature Visualization
+To visualize the features, we use **t-SNE** to reduce the dimensionality of the **CNN features, k-mer features, k-mer features via Dense layers, and Dense layer features** from the training set. This will allow us to see how the model's learned representations cluster and separate different data points in a 2D space, helping to interpret the feature learning process.
 
 ### Tendency of the Correlated and Non-Related Features
 
