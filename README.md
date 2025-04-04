@@ -39,7 +39,7 @@ To visualize the features, we use **t-SNE** to reduce the dimensionality of the 
 ### Tendency of the Correlated and Non-Related Features
 
 <p align="center">
-<img src="https://github.com/shahid3167/Ensemble_Learning_with_Semantic_Feature_Fusion/blob/c03e3790d62624efb3403b3f2d6770526188f908/Figures/BlandAltmanPlotFeatures.jpg" width="550" height="350">  <p align="right">
+<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/Figures/t-SEN.jpg" width="550" height="350">  <p align="right">
 
 <p align="center">
 Bland Altman plot highlighting the tendency of the correlated and non-related features 
