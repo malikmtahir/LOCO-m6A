@@ -53,5 +53,9 @@ The following references are utlized in the comparative analyses.
 # Contact details
 ## Muhammad Tahir (m.tahir-ra@uwinnipeg.ca)
 ### Affiliation:
-1. **Department of Applied Computer Science and Society, The University of Winnipeg, Winnipeg, Canada**
+1. **Department of Applied Computer Science, The University of Winnipeg, 515 Portage Ave, R3B 2E9, MB, Canada**
 2. **Department of Computer Science, Abdul Wali Khan University, Mardan, Mardan, 23200, Pakistan**
+
+## Qian Liu (qi.liu@uwinnipeg.ca)
+### Affiliation:
+1. **Department of Applied Computer Science, The University of Winnipeg, 515 Portage Ave, R3B 2E9, MB, Canada**
