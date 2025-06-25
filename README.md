@@ -1,7 +1,7 @@
 # Predicting m6A sites with Chromosome-Generalizable Hybrid Deep Features
 This repository contains resources related to the research titled **Predicting Tissue-Conserved Human m6A with Chromosome-Generalizable Hybrid Deep Features** In this study, we propose a computational model based on random splitting and Leave-One-Chromosome-Out (LOCO) approaches to identify m6A sites. The proposed framework is built on a detailed architecture that includes core components such as the Data Space, splitting strategies, and Feature Fusion Space.
 
-<pre> ``` LOCO-m6A/ ├── Code/ │ ├── CNN-Fold-Kmer-Onehot-LOCO.ipynb │ └── CNN-Fold-Kmer-Onehot.ipynb ├── Dataset/ │ └── Dataset.rar ├── Figures/ │ ├── Frame_work.jpg │ └── t-SEN.jpg └── README.md ``` </pre>
+<pre> ``` LOCO-m6A/ ├── Code/ │ ├── CNN-Fold-Kmer-Onehot-LOCO.ipynb │ └── CNN-Fold-Kmer-Onehot.ipynb ├── Dataset/ │ └── Dataset.rar ├── Figures/ │ ├── Frame_work.jpg │ └── t-SEN.jpg ├── README.md ``` </pre>
 
 ## Proposed Framework
 ### Benchmark Dataset
