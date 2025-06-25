@@ -1,6 +1,18 @@
 # Predicting m6A sites with Chromosome-Generalizable Hybrid Deep Features
 This repository contains resources related to the research titled **Predicting Tissue-Conserved Human m6A with Chromosome-Generalizable Hybrid Deep Features** In this study, we propose a computational model based on random splitting and Leave-One-Chromosome-Out (LOCO) approaches to identify m6A sites. The proposed framework is built on a detailed architecture that includes core components such as the Data Space, splitting strategies, and Feature Fusion Space.
 
+LOCO-m6A/
+├── Code/
+│ ├── CNN-Fold-Kmer-Onehot-LOCO.ipynb/
+│ └── CNN-Fold-Kmer-Onehot.ipynb/
+├── Dataset/
+│ ├── Dataset.rar/
+├── Figures/
+│ ├── Frame_work.jpg/
+│ ├── t-SEN.jpg/
+├── README.md
+
+
 ## Proposed Framework
 ### Benchmark Dataset
 The m6A benchmark dataset was downloaded from m6A-TCPred, extracting 268,115 base-resolution m6A sites from the m6A-Atlas database. The sites were analyzed across 23 human tissue contexts. The positive dataset had 10,424 highly conserved methylation site sequences across human tissues, while the negative dataset had 54,949 tissue-specific site sequences.
